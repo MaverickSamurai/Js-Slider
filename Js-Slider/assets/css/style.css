@@ -1,0 +1,92 @@
+#last-news {
+    position: relative;
+    overflow: hidden;
+    padding: 25px;
+    
+  }
+
+  
+#last-news .pre-btn{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    cursor: pointer;
+    color:red;
+}
+
+#last-news .next-btn {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    cursor: pointer;
+    color:red;
+}
+  
+  #last-news .my-header {
+    padding-left: 130px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+
+  #last-news .my-header:hover {
+    padding-left: 150px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    color: cadetblue;
+    cursor: pointer;
+    
+  }
+  
+  #last-news .my-container {
+    padding: 0 130px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  #last-news .my-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #last-news .my-news {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  
+  #last-news .news-image {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #last-news .img-style {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #last-news .news-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    color: crimson;
+  }
+
+  #last-news .news-info:hover {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    color:firebrick;
+  }
+  
+ 
+  
